@@ -768,13 +768,13 @@ pre {
 .thumbnail-title {
   color: #2c2c2c;
   font-family: "Righteous", helvetica, sans-serif;
-  font-size: 21px;
+  font-size: 10px;
   margin: 0 auto 10px auto;
   text-align: left;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
   text-transform: uppercase;
   max-width: 360px;
-  width: 75%;
+  width: 80%;
   word-wrap: break-word;
 }
 .thumbnail-description {
@@ -1471,7 +1471,7 @@ nav[role="navigation"] {
   }
   /*===== Projects =====*/
   .thumbnail-title {
-    font-size: 28px;
+    font-size: 10px;
   }
   .is_page .projects-feed {
     margin-top: 150px;
@@ -1661,7 +1661,7 @@ nav[role="navigation"] {
   }
   /*===== Projects =====*/
   .thumbnail-title {
-    font-size: 36px;
+    font-size: 11px;
   }
   /*===== Paginations =====*/
 
