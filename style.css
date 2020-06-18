@@ -332,7 +332,8 @@ pre {
 .site-title ul {
   right: 0px;
   position: fixed;
-  margin: 43px;
+  margin-top: 40px;
+  margin-right: 0px;
   padding: 0;
   display: flex;
 }
@@ -1261,11 +1262,11 @@ nav[role="navigation"] {
     margin-bottom: 2em;
   }
 
-  .site-title ul {
-    margin: 43px;
-  }
+/*  .site-title ul {
+    margin: 40px;
+  }*/
   .site-title ul li {
-    padding-right: 43px;
+    padding-right: 25px;
   }
   .site-tagline p:nth-child(1) {
     font-size: 20px;
@@ -1345,9 +1346,10 @@ nav[role="navigation"] {
   .site-title {
     margin-bottom: 120px;
   }
-  .site-title ul {
-    margin: 43px;
-  }
+/*  .site-title ul {
+    margin-top: 40px;
+    margin-right: 0px;
+  }*/
   .site-title ul li {
     padding-right: 40px;
   }
