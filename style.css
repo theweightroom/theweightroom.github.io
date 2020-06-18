@@ -332,7 +332,7 @@ pre {
 .site-title ul {
   right: 0px;
   position: fixed;
-  margin: 30px;
+  margin: 43px;
   padding: 0;
   display: flex;
 }
@@ -1262,10 +1262,10 @@ nav[role="navigation"] {
   }
 
   .site-title ul {
-    margin: 20px;
+    margin: 43px;
   }
   .site-title ul li {
-    padding-right: 25px;
+    padding-right: 43px;
   }
   .site-tagline p:nth-child(1) {
     font-size: 20px;
@@ -1346,7 +1346,7 @@ nav[role="navigation"] {
     margin-bottom: 120px;
   }
   .site-title ul {
-    margin: 25px;
+    margin: 43px;
   }
   .site-title ul li {
     padding-right: 40px;
