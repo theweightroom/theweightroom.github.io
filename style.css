@@ -377,7 +377,7 @@ pre {
   font-size: 17px;
 }
 .site-tagline img {
-  width: 550px;
+  width: 70vw;
   margin-top: 10px;
 }
 .site-tagline form {
@@ -768,7 +768,7 @@ pre {
 .thumbnail-title {
   color: #2c2c2c;
   font-family: "Righteous", helvetica, sans-serif;
-  font-size: 10px;
+  font-size: 1.2vw;
   margin: 0 auto 10px auto;
   text-align: left;
   letter-spacing: 2px;
@@ -1144,8 +1144,7 @@ nav[role="navigation"] {
 }
 
 .site-content {
-  min-height: 100vh;
-  padding: 60px;
+  height: fit-content;
   width: 100vw;
 }
 
@@ -1196,7 +1195,6 @@ nav[role="navigation"] {
 .large-3,
 .large-4 {
   width: 100%;
-  margin-bottom: 40px;
 }
 
 .email-screenshot-left {
@@ -1260,6 +1258,7 @@ nav[role="navigation"] {
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 2em;
+    font-size: 18px;
   }
 
 /*  .site-title ul {
@@ -1363,7 +1362,7 @@ nav[role="navigation"] {
     font-size: 16px;
   }
   .site-tagline img {
-    width: 500px;
+    width: 70vw;
   }
   /*===== Navigations =====*/
   .cd-nav-trigger {
@@ -1471,7 +1470,7 @@ nav[role="navigation"] {
   }
   /*===== Projects =====*/
   .thumbnail-title {
-    font-size: 10px;
+    font-size: 1.2vw;
   }
   .is_page .projects-feed {
     margin-top: 150px;
@@ -1625,7 +1624,7 @@ nav[role="navigation"] {
     width: 100%;
   }
   .site-tagline img {
-    width: 620px;
+    width: 60vw;
   }
   .site-tagline p:nth-child(1) {
     font-size: 25px;
@@ -1661,7 +1660,7 @@ nav[role="navigation"] {
   }
   /*===== Projects =====*/
   .thumbnail-title {
-    font-size: 11px;
+    font-size: 1.2vw;
   }
   /*===== Paginations =====*/
 
@@ -1725,6 +1724,14 @@ input {
   box-shadow:         3px 3px #FFD260;
 }
 
+.form-input-field {
+  height: 2em;
+}
+
+.birthday {
+  width: 2.5em;
+}
+
 #intro-text {
   max-width: 700px;
 }
@@ -1736,4 +1743,12 @@ input {
 
 #intro-section {
   height: 80vh;
+}
+
+#mc-embedded-subscribe {
+  font-size: 16px;
+}
+
+.text-div {
+  margin-top: 5%;
 }
