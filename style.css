@@ -1752,3 +1752,12 @@ input {
 .text-div {
   margin-top: 5%;
 }
+
+#email-signup-top {
+  margin-right: 5px;
+    height: 3em;
+    width: 300px;
+    border-radius: 15px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
