@@ -27,8 +27,8 @@ Description: A template by Aristotheme.
 /*=================================*/
 /* Reset & Clearfix Styles
 /*=================================*/
-@import url(//fonts.googleapis.com/css?family=Righteous&subset=latin,latin-ext);
-@import url(//fonts.googleapis.com/css?family=Quicksand:300,400,700);
+@import url('https://fonts.googleapis.com/css?family=Righteous&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,700');
 
 html,
 body,
@@ -1751,4 +1751,13 @@ input {
 
 .text-div {
   margin-top: 5%;
+}
+
+#email-signup-top {
+  margin-right: 5px;
+    height: 3em;
+    width: 300px;
+    border-radius: 15px;
+    padding-left: 10px;
+    margin-bottom: 10px;
 }
