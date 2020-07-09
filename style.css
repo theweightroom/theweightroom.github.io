@@ -326,7 +326,7 @@ pre {
   width: 100%;
   z-index: 12;
   letter-spacing: 2px;
-  margin-bottom: 120px;
+  margin-bottom: 100px;
 }
 
 .site-title ul {
@@ -376,10 +376,23 @@ pre {
 .site-tagline p:nth-child(2) {
   font-size: 17px;
 }
-.site-tagline img {
+/*.site-tagline img {
+  width: 70vw;
+  margin-top: 10px;
+}*/
+#big-logo {
   width: 70vw;
   margin-top: 10px;
 }
+
+#arrow {
+  width: 40px;
+}
+
+#arrow:hover {
+  opacity: 0.5;
+}
+
 .site-tagline form {
   text-align: center;
   margin-bottom: 30px;
@@ -389,7 +402,7 @@ pre {
   color: #e4572e;
 }
 .site-tagline a:hover {
-  color: #ffc857;
+  color: #FFD260;
 }
 /*=================================*/
 /* Language Styles
@@ -1039,7 +1052,6 @@ nav[role="navigation"] {
   -o-transform: translateX(-50%) rotate(180deg) translateY(50px);
   transform: translateX(-50%) rotate(180deg) translateY(50px);
 }
-
 /*===== News =====*/
 .news .blog_item:nth-child(odd) {
   background: #f56e47;
@@ -1343,7 +1355,7 @@ nav[role="navigation"] {
   }
   /*===== Titles =====*/
   .site-title {
-    margin-bottom: 120px;
+    margin-bottom: 100px;
   }
 /*  .site-title ul {
     margin-top: 40px;
@@ -1361,9 +1373,9 @@ nav[role="navigation"] {
   .site-tagline p:nth-child(2) {
     font-size: 16px;
   }
-  .site-tagline img {
+/*  .site-tagline img {
     width: 70vw;
-  }
+  }*/
   /*===== Navigations =====*/
   .cd-nav-trigger {
     top: 52px;
@@ -1431,7 +1443,7 @@ nav[role="navigation"] {
     }*/
   /*===== Titles =====*/
   .site-title {
-    margin-bottom: 160px;
+    margin-bottom: 120px;
   }
   .site-tagline {
     margin-bottom: 80px;
@@ -1616,14 +1628,14 @@ nav[role="navigation"] {
     }*/
   /*===== Titles =====*/
   .site-title {
-    margin-bottom: 200px;
+    margin-bottom: 130px;
     font-size: 50px;
   }
   .site-tagline {
     margin-bottom: 100px;
     width: 100%;
   }
-  .site-tagline img {
+  #big-logo {
     width: 60vw;
   }
   .site-tagline p:nth-child(1) {
@@ -1742,7 +1754,7 @@ input {
 
 
 #intro-section {
-  height: fit-content;
+  min-height: 80vh;
 }
 
 #mc-embedded-subscribe {
